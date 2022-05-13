@@ -38,7 +38,7 @@ function createDiv(item){
 function createH2(item){
     let h2Tag=document.createElement('h2');
     h2Tag.innerText=item.id;
-    // h2Tag.classList.add('none');
+    h2Tag.classList.add('none');
     sliderContent.appendChild(h2Tag);
     return h2Tag
 }
